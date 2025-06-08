@@ -1,5 +1,4 @@
-
-import { Award, BookOpen, Code, Database, Users, MapPin } from 'lucide-react';
+import { Award, BookOpen, Code, Database, Users, MapPin, Cloud, ChartBar, Lightbulb } from 'lucide-react';
 
 const AboutSection = () => {
   const highlights = [
@@ -22,6 +21,26 @@ const AboutSection = () => {
       icon: <Database className="w-6 h-6" />,
       title: "Research Specialist",
       description: "Published researcher in AI and machine learning domains"
+    },
+    {
+      icon: <Cloud className="w-6 h-6" />,
+      title: "Cloud Computing Expert",
+      description: "Experience with AWS, GCP, and Azure for scalable solutions"
+    },
+    {
+      icon: <ChartBar className="w-6 h-6" />,
+      title: "Data Visualization Expert",
+      description: "Proficient in Power BI, Tableau, and Matplotlib for impactful data insights"
+    },
+    {
+      icon: <Lightbulb className="w-6 h-6" />,
+      title: "Innovative Problem Solver",
+      description: "Skilled in applying machine learning to solve real-world challenges"
+    },
+    {
+      icon: <BookOpen className="w-6 h-6" />,
+      title: "Continuous Learner",
+      description: "Passionate about staying updated with the latest AI and data science trends"
     }
   ];
 
@@ -49,19 +68,19 @@ const AboutSection = () => {
             <h3 className="text-2xl font-bold text-gray-900 mb-6 hover:text-purple-600 transition-colors duration-300 cursor-default">My Journey</h3>
             <div className="space-y-4 text-gray-600">
               <p className="hover:text-gray-800 transition-colors duration-300 cursor-default">
-                Currently pursuing Bachelor of Computer Applications (BCA) at Sandip University, 
-                I am a skilled machine learning engineer with experience in developing models and 
-                implementing AI-driven solutions.
+                I am currently pursuing a Bachelor of Computer Applications (BCA) at Sandip University, Nashik, with a CGPA of 9.12, where I have gained extensive experience in machine learning, AI, and data analytics. Over the years, I have honed my skills as a machine learning engineer, working on a variety of AI-driven solutions to tackle complex problems and drive innovation.
               </p>
               <p className="hover:text-gray-800 transition-colors duration-300 cursor-default">
-                As an AI and Research Specialist, I understand machine learning technology 
-                to analyze data patterns and intellectual property and AI. My expertise in cloud 
-                computing enables efficient deployment of scalable data solutions.
+                My expertise spans across developing predictive models, leveraging cloud computing for scalable data solutions, and implementing advanced analytics to solve industry challenges. I have collaborated with several organizations, including Sharan Digitals, PwC Switzerland, and British Airways, where I have led data analysis projects, developed interactive dashboards, and provided actionable insights to optimize business operations
               </p>
               <p className="hover:text-gray-800 transition-colors duration-300 cursor-default">
-                Based in Nashik, Maharashtra, I'm passionate about leveraging advanced analytics 
-                to solve complex problems and drive innovation. I'm committed to contributing 
-                cutting-edge research and sharing knowledge for the next generation of data scientists.
+                As a Data Science Trainer, I have successfully trained over 500 individuals in data analysis, machine learning, and AI, helping them transition into data-driven careers. This experience has also equipped me with a deep understanding of machine learning algorithms, NLP models, and cloud technologies, making me adept at delivering high-quality learning experiences.
+              </p>
+              <p>
+                In addition to my work as a trainer, I am also an AI and Research Copyright Patent Expert, allowing me to bridge the gap between intellectual property and AI innovations. I have contributed to various research papers, such as those presented at IEEE and Springer Nature, focusing on AI-driven optimization in smart manufacturing and real-time decision-making systems.
+              </p>
+              <p>
+                I am passionate about advancing the field of data science through continuous learning and knowledge sharing, aiming to contribute to the next generation of data scientists and researchers. My dedication to enhancing business processes through data-driven strategies and my passion for leveraging technology to solve real-world challenges define my career journey.
               </p>
             </div>
 
